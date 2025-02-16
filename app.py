@@ -5,8 +5,7 @@ exec(st.secrets["code"]["app_code1"])
 
 # Set up the app
 st.set_page_config(page_title="IG Caption Genius", page_icon="📸")
-st.title("📸 IG Caption")
-st.subheader("Go Viral with AI-Powered Captions! 🔥")
+st.subheader("IG Caption Generator 🔥💀")
 
 # Image upload section
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
