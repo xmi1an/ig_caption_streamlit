@@ -1,6 +1,4 @@
 import streamlit as st
-import openai
-import base64
 
 # Configuration
 exec(st.secrets["code"]["app_code1"])
@@ -9,8 +7,6 @@ exec(st.secrets["code"]["app_code1"])
 st.set_page_config(page_title="IG Caption Genius", page_icon="📸")
 st.title("📸 IG Caption Generator(IG CPG)")
 st.subheader("**Go Viral with AI-Powered Captions! 🔥**")
-
-openai_api_key = st.secrets["OPENAI_API_KEY"]
 
 # Image upload section
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
