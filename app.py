@@ -12,7 +12,7 @@ st.subheader("**Go Viral with AI-Powered Captions! 🔥**")
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
-    st.image(uploaded_file, caption="Uploaded Image", use_column_width=True)
+    st.image(uploaded_file, caption="Uploaded Image")
 
 with st.container(border=True):
     col1, col2 = st.columns([2, 2])
